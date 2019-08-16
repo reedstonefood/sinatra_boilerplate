@@ -1,6 +1,6 @@
 # Sinatra Boilerplate
 
-[See this code running](http://peaceful-brook-41552.herokuapp.com/)[^1]
+[See this code running](http://peaceful-brook-41552.herokuapp.com/)<sup>[1](#footnote1)</sup>
 
 ## The problem
 
@@ -49,4 +49,4 @@ I've linked to many of the sources above but I'd also like to mention...
 - This article on [deploying a simple Sinatra App with Postgres to Heroku](https://medium.com/@dmccoy/deploying-a-simple-sinatra-app-with-postgres-to-heroku-c4a883d3f19e)
 - [This post](https://nickcharlton.net/posts/structuring-sinatra-applications.html) helped me organize multiple controllers in a way I was happy with
 
-[^1]: This is hosted on Heroku's free tier. This means that if no-one has visited the site in the last 30 minutes, it shuts down, and thus will take a few seconds to load up again. Therefore it's important to remember that this is not indicative of the typical response time of this lightweight app.
+<a name="footnote1">1</a>: This is hosted on Heroku's free tier. This means that if no-one has visited the site in the last 30 minutes, it shuts down, and thus will take a few seconds to load up again. Therefore it's important to remember that this is not indicative of the typical response time of this lightweight app.
