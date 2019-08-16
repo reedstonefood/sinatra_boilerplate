@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title><%= @title %></title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <%= erb :"layout/stylesheets" %>
+  </head>
+  <body>
+<%= erb :"layout/navbar" %>
+<%= yield %>
+<%= erb :"layout/javascripts" %>
+  </body>
+</html>
